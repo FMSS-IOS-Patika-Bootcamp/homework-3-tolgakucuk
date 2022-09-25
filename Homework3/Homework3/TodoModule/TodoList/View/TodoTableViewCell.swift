@@ -19,6 +19,7 @@ class TodoTableViewCell: UITableViewCell {
                 if todo.completed == false {
                     taskNameLabel.text = todo.name
                     dueOnLabel.text = String(format: "Due on: %@", todo.dueOn!.toString(format: "MMM dd, yy"))
+                    completedImage.image = UIImage(named: "notCompleted")
                 } else {
                     taskNameLabel.text = todo.name
                     dueOnLabel.text = String(format: "Due on: %@", todo.dueOn!.toString(format: "MMM dd, yy"))
