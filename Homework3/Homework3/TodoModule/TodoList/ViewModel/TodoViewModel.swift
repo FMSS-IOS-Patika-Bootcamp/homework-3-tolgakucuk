@@ -26,4 +26,9 @@ class TodoViewModel {
     func refreshData() {
         self.todos = TodoModel.shared.fetchTodos()
     }
+    
+    func completeTaskAtIndex(_ index: Int, completion: @escaping (Bool) -> Void) {
+        self.refreshData()
+        TodoModel.shared.completeTask(todo: todos[index], completion: completion)
+    }
 }

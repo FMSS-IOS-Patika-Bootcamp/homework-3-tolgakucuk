@@ -20,6 +20,7 @@ extension Todo {
     @NSManaged public var id: UUID?
     @NSManaged public var dueOn: Date?
     @NSManaged public var completed: Bool
+    @NSManaged public var addedDate: Date?
 
 }
 

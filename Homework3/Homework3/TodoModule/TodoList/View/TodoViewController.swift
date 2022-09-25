@@ -75,5 +75,20 @@ extension TodoViewController: UITableViewDataSource {
         return cell
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let todo = viewModel.todoAtIndex(indexPath.row)
+        tableView.deselectRow(at: indexPath, animated: true)
+        if todo.completed == false {
+            let alertController = UIAlertController(title: "Complete?", message: "Do you want to mark completed this task", preferredStyle: .alert)
+            alertController.addAction(UIAlertAction(title: "Complete", style: .default, handler: { _ in
+                self.viewModel.completeTaskAtIndex(indexPath.row) { _ in
+                    self.tableView.reloadData()
+                }
+            }))
+            alertController.addAction(UIAlertAction(title: "Not Complete", style: .destructive, handler: nil))
+            present(alertController, animated: true)
+        }
+    }
+    
 }
 

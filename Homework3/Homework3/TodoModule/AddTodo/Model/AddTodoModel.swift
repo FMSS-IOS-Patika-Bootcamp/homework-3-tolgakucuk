@@ -20,6 +20,7 @@ class AddTodoModel {
         todo.setValue(dueOn, forKeyPath: #keyPath(Todo.dueOn))
         todo.id = UUID()
         todo.setValue(false, forKeyPath: #keyPath(Todo.completed))
+        todo.setValue(Date(), forKeyPath: #keyPath(Todo.addedDate))
         AppDelegate.sharedAppDelegate.coreDataStack.saveContext()
         completion(true)
     }
