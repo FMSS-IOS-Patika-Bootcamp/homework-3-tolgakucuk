@@ -7,9 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D1221D7CCD0B5056FC909D90 /* Pods_Homework3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 328E0058634EA080BC9DD807 /* Pods_Homework3.framework */; };
+		FD09FB0428DF20ED009319B9 /* TodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD09FB0328DF20ED009319B9 /* TodoViewController.swift */; };
+		FD40662F28DFB4FD00A9EB1A /* Todo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FD40662D28DFB4FD00A9EB1A /* Todo.xcdatamodeld */; };
+		FD40663228DFBB9400A9EB1A /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD40663128DFBB9400A9EB1A /* CoreDataStack.swift */; };
+		FD40664528E045F600A9EB1A /* Todo+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD40664328E045F600A9EB1A /* Todo+CoreDataClass.swift */; };
+		FD40664628E045F600A9EB1A /* Todo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD40664428E045F600A9EB1A /* Todo+CoreDataProperties.swift */; };
+		FD40664A28E0472D00A9EB1A /* TodoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD40664828E0472D00A9EB1A /* TodoTableViewCell.swift */; };
+		FD40664B28E0472D00A9EB1A /* TodoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD40664928E0472D00A9EB1A /* TodoTableViewCell.xib */; };
+		FD40664F28E056F600A9EB1A /* AddTodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD40664E28E056F600A9EB1A /* AddTodoViewController.swift */; };
+		FD40665228E067A300A9EB1A /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD40665128E067A300A9EB1A /* Date+Extensions.swift */; };
+		FD40665528E06FD900A9EB1A /* AddTodoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD40665428E06FD900A9EB1A /* AddTodoViewModel.swift */; };
+		FD40665828E0716100A9EB1A /* AddTodoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD40665728E0716100A9EB1A /* AddTodoModel.swift */; };
+		FD40665C28E0833100A9EB1A /* TodoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD40665B28E0833100A9EB1A /* TodoModel.swift */; };
+		FD40665E28E0852F00A9EB1A /* TodoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD40665D28E0852F00A9EB1A /* TodoViewModel.swift */; };
 		FD871C5F28DE36C20071E901 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD871C5E28DE36C20071E901 /* AppDelegate.swift */; };
 		FD871C6128DE36C20071E901 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD871C6028DE36C20071E901 /* SceneDelegate.swift */; };
-		FD871C6328DE36C20071E901 /* PostsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD871C6228DE36C20071E901 /* PostsListViewController.swift */; };
+		FD871C6328DE36C20071E901 /* PostListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD871C6228DE36C20071E901 /* PostListViewController.swift */; };
 		FD871C6628DE36C20071E901 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD871C6428DE36C20071E901 /* Main.storyboard */; };
 		FD871C6828DE36C50071E901 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD871C6728DE36C50071E901 /* Assets.xcassets */; };
 		FD871C6B28DE36C50071E901 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD871C6928DE36C50071E901 /* LaunchScreen.storyboard */; };
@@ -19,13 +33,35 @@
 		FD871C8028DE41DA0071E901 /* PostListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD871C7F28DE41DA0071E901 /* PostListViewModel.swift */; };
 		FD871C8228DE421F0071E901 /* PostListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD871C8128DE421F0071E901 /* PostListModel.swift */; };
 		FD871C8428DE42470071E901 /* PostListEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD871C8328DE42470071E901 /* PostListEntity.swift */; };
+		FD871C8A28DE492F0071E901 /* PhotoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD871C8928DE492F0071E901 /* PhotoListViewController.swift */; };
+		FD871C8D28DE57A30071E901 /* PhotosListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD871C8B28DE57A30071E901 /* PhotosListCollectionViewCell.swift */; };
+		FD871C8E28DE57A30071E901 /* PhotosListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD871C8C28DE57A30071E901 /* PhotosListCollectionViewCell.xib */; };
+		FD871C9028DE5F590071E901 /* PhotosListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD871C8F28DE5F590071E901 /* PhotosListViewModel.swift */; };
+		FD871C9228DE5FF60071E901 /* PhotoListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD871C9128DE5FF60071E901 /* PhotoListModel.swift */; };
+		FD871C9428DE60070071E901 /* PhotoListEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD871C9328DE60070071E901 /* PhotoListEntity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A7656DD669526967FFE1BA5 /* Pods-Homework3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Homework3.release.xcconfig"; path = "Target Support Files/Pods-Homework3/Pods-Homework3.release.xcconfig"; sourceTree = "<group>"; };
+		328E0058634EA080BC9DD807 /* Pods_Homework3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Homework3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE5E1E0D4E168F945BD614BC /* Pods-Homework3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Homework3.debug.xcconfig"; path = "Target Support Files/Pods-Homework3/Pods-Homework3.debug.xcconfig"; sourceTree = "<group>"; };
+		FD09FB0328DF20ED009319B9 /* TodoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewController.swift; sourceTree = "<group>"; };
+		FD40662E28DFB4FD00A9EB1A /* Todo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Todo.xcdatamodel; sourceTree = "<group>"; };
+		FD40663128DFBB9400A9EB1A /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		FD40664328E045F600A9EB1A /* Todo+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Todo+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		FD40664428E045F600A9EB1A /* Todo+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Todo+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		FD40664828E0472D00A9EB1A /* TodoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoTableViewCell.swift; sourceTree = "<group>"; };
+		FD40664928E0472D00A9EB1A /* TodoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TodoTableViewCell.xib; sourceTree = "<group>"; };
+		FD40664E28E056F600A9EB1A /* AddTodoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTodoViewController.swift; sourceTree = "<group>"; };
+		FD40665128E067A300A9EB1A /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		FD40665428E06FD900A9EB1A /* AddTodoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTodoViewModel.swift; sourceTree = "<group>"; };
+		FD40665728E0716100A9EB1A /* AddTodoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTodoModel.swift; sourceTree = "<group>"; };
+		FD40665B28E0833100A9EB1A /* TodoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoModel.swift; sourceTree = "<group>"; };
+		FD40665D28E0852F00A9EB1A /* TodoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewModel.swift; sourceTree = "<group>"; };
 		FD871C5B28DE36C20071E901 /* Homework3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homework3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD871C5E28DE36C20071E901 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD871C6028DE36C20071E901 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FD871C6228DE36C20071E901 /* PostsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsListViewController.swift; sourceTree = "<group>"; };
+		FD871C6228DE36C20071E901 /* PostListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListViewController.swift; sourceTree = "<group>"; };
 		FD871C6528DE36C20071E901 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FD871C6728DE36C50071E901 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD871C6A28DE36C50071E901 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +72,12 @@
 		FD871C7F28DE41DA0071E901 /* PostListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListViewModel.swift; sourceTree = "<group>"; };
 		FD871C8128DE421F0071E901 /* PostListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListModel.swift; sourceTree = "<group>"; };
 		FD871C8328DE42470071E901 /* PostListEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListEntity.swift; sourceTree = "<group>"; };
+		FD871C8928DE492F0071E901 /* PhotoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListViewController.swift; sourceTree = "<group>"; };
+		FD871C8B28DE57A30071E901 /* PhotosListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosListCollectionViewCell.swift; sourceTree = "<group>"; };
+		FD871C8C28DE57A30071E901 /* PhotosListCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotosListCollectionViewCell.xib; sourceTree = "<group>"; };
+		FD871C8F28DE5F590071E901 /* PhotosListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosListViewModel.swift; sourceTree = "<group>"; };
+		FD871C9128DE5FF60071E901 /* PhotoListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListModel.swift; sourceTree = "<group>"; };
+		FD871C9328DE60070071E901 /* PhotoListEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListEntity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,17 +85,124 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1221D7CCD0B5056FC909D90 /* Pods_Homework3.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2668EEED9FC2AA648CFA4CE4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE5E1E0D4E168F945BD614BC /* Pods-Homework3.debug.xcconfig */,
+				1A7656DD669526967FFE1BA5 /* Pods-Homework3.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F729CB35D8F4590A1433076F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				328E0058634EA080BC9DD807 /* Pods_Homework3.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD09FB0128DF1F1F009319B9 /* TodoModule */ = {
+			isa = PBXGroup;
+			children = (
+				FD40664C28E056AE00A9EB1A /* AddTodo */,
+				FD40663028DFB57800A9EB1A /* TodoList */,
+			);
+			path = TodoModule;
+			sourceTree = "<group>";
+		};
+		FD09FB0228DF1F2C009319B9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FD09FB0328DF20ED009319B9 /* TodoViewController.swift */,
+				FD40664828E0472D00A9EB1A /* TodoTableViewCell.swift */,
+				FD40664928E0472D00A9EB1A /* TodoTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FD40663028DFB57800A9EB1A /* TodoList */ = {
+			isa = PBXGroup;
+			children = (
+				FD40665A28E0830E00A9EB1A /* Model */,
+				FD40664728E046EA00A9EB1A /* ViewModel */,
+				FD09FB0228DF1F2C009319B9 /* View */,
+			);
+			path = TodoList;
+			sourceTree = "<group>";
+		};
+		FD40664728E046EA00A9EB1A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FD40665D28E0852F00A9EB1A /* TodoViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FD40664C28E056AE00A9EB1A /* AddTodo */ = {
+			isa = PBXGroup;
+			children = (
+				FD40665628E0711800A9EB1A /* Model */,
+				FD40665328E06FCF00A9EB1A /* ViewModel */,
+				FD40664D28E056B600A9EB1A /* View */,
+			);
+			path = AddTodo;
+			sourceTree = "<group>";
+		};
+		FD40664D28E056B600A9EB1A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FD40664E28E056F600A9EB1A /* AddTodoViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FD40665028E0679100A9EB1A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FD40665128E067A300A9EB1A /* Date+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FD40665328E06FCF00A9EB1A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FD40665428E06FD900A9EB1A /* AddTodoViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FD40665628E0711800A9EB1A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FD40665728E0716100A9EB1A /* AddTodoModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FD40665A28E0830E00A9EB1A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FD40665B28E0833100A9EB1A /* TodoModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		FD871C5228DE36C20071E901 = {
 			isa = PBXGroup;
 			children = (
 				FD871C5D28DE36C20071E901 /* Homework3 */,
 				FD871C5C28DE36C20071E901 /* Products */,
+				2668EEED9FC2AA648CFA4CE4 /* Pods */,
+				F729CB35D8F4590A1433076F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,14 +217,21 @@
 		FD871C5D28DE36C20071E901 /* Homework3 */ = {
 			isa = PBXGroup;
 			children = (
+				FD40665028E0679100A9EB1A /* Extensions */,
+				FD40664328E045F600A9EB1A /* Todo+CoreDataClass.swift */,
+				FD40664428E045F600A9EB1A /* Todo+CoreDataProperties.swift */,
+				FD09FB0128DF1F1F009319B9 /* TodoModule */,
 				FD871C7B28DE40ED0071E901 /* Constants */,
+				FD871C8528DE48CC0071E901 /* PhotosModule */,
 				FD871C7228DE3C660071E901 /* PostsModule */,
 				FD871C5E28DE36C20071E901 /* AppDelegate.swift */,
-				FD871C6028DE36C20071E901 /* SceneDelegate.swift */,
-				FD871C6428DE36C20071E901 /* Main.storyboard */,
 				FD871C6728DE36C50071E901 /* Assets.xcassets */,
-				FD871C6928DE36C50071E901 /* LaunchScreen.storyboard */,
 				FD871C6C28DE36C50071E901 /* Info.plist */,
+				FD871C6928DE36C50071E901 /* LaunchScreen.storyboard */,
+				FD871C6428DE36C20071E901 /* Main.storyboard */,
+				FD871C6028DE36C20071E901 /* SceneDelegate.swift */,
+				FD40662D28DFB4FD00A9EB1A /* Todo.xcdatamodeld */,
+				FD40663128DFBB9400A9EB1A /* CoreDataStack.swift */,
 			);
 			path = Homework3;
 			sourceTree = "<group>";
@@ -84,8 +240,8 @@
 			isa = PBXGroup;
 			children = (
 				FD871C7328DE3C6E0071E901 /* Model */,
-				FD871C7528DE3C790071E901 /* View */,
 				FD871C7628DE3C830071E901 /* ViewModel */,
+				FD871C7528DE3C790071E901 /* View */,
 			);
 			path = PostsModule;
 			sourceTree = "<group>";
@@ -102,7 +258,7 @@
 		FD871C7528DE3C790071E901 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				FD871C6228DE36C20071E901 /* PostsListViewController.swift */,
+				FD871C6228DE36C20071E901 /* PostListViewController.swift */,
 				FD871C7728DE3F1D0071E901 /* PostListTableViewCell.swift */,
 				FD871C7828DE3F1D0071E901 /* PostListTableViewCell.xib */,
 			);
@@ -125,6 +281,43 @@
 			path = Constants;
 			sourceTree = "<group>";
 		};
+		FD871C8528DE48CC0071E901 /* PhotosModule */ = {
+			isa = PBXGroup;
+			children = (
+				FD871C8628DE48D50071E901 /* Model */,
+				FD871C8828DE48E00071E901 /* ViewModel */,
+				FD871C8728DE48DA0071E901 /* View */,
+			);
+			path = PhotosModule;
+			sourceTree = "<group>";
+		};
+		FD871C8628DE48D50071E901 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FD871C9128DE5FF60071E901 /* PhotoListModel.swift */,
+				FD871C9328DE60070071E901 /* PhotoListEntity.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FD871C8728DE48DA0071E901 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FD871C8928DE492F0071E901 /* PhotoListViewController.swift */,
+				FD871C8B28DE57A30071E901 /* PhotosListCollectionViewCell.swift */,
+				FD871C8C28DE57A30071E901 /* PhotosListCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FD871C8828DE48E00071E901 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FD871C8F28DE5F590071E901 /* PhotosListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +325,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FD871C6F28DE36C50071E901 /* Build configuration list for PBXNativeTarget "Homework3" */;
 			buildPhases = (
+				EC7DF44207FFC379B1CDB487 /* [CP] Check Pods Manifest.lock */,
 				FD871C5728DE36C20071E901 /* Sources */,
 				FD871C5828DE36C20071E901 /* Frameworks */,
 				FD871C5928DE36C20071E901 /* Resources */,
+				6FF7667F5C2AEBBC68BD24EE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -187,24 +382,85 @@
 				FD871C6828DE36C50071E901 /* Assets.xcassets in Resources */,
 				FD871C6628DE36C20071E901 /* Main.storyboard in Resources */,
 				FD871C7A28DE3F1D0071E901 /* PostListTableViewCell.xib in Resources */,
+				FD871C8E28DE57A30071E901 /* PhotosListCollectionViewCell.xib in Resources */,
+				FD40664B28E0472D00A9EB1A /* TodoTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6FF7667F5C2AEBBC68BD24EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Homework3/Pods-Homework3-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Homework3/Pods-Homework3-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Homework3/Pods-Homework3-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC7DF44207FFC379B1CDB487 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Homework3-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FD871C5728DE36C20071E901 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD871C9428DE60070071E901 /* PhotoListEntity.swift in Sources */,
+				FD40662F28DFB4FD00A9EB1A /* Todo.xcdatamodeld in Sources */,
+				FD40665228E067A300A9EB1A /* Date+Extensions.swift in Sources */,
+				FD871C9028DE5F590071E901 /* PhotosListViewModel.swift in Sources */,
+				FD40664A28E0472D00A9EB1A /* TodoTableViewCell.swift in Sources */,
+				FD09FB0428DF20ED009319B9 /* TodoViewController.swift in Sources */,
+				FD40665528E06FD900A9EB1A /* AddTodoViewModel.swift in Sources */,
+				FD871C8A28DE492F0071E901 /* PhotoListViewController.swift in Sources */,
+				FD871C9228DE5FF60071E901 /* PhotoListModel.swift in Sources */,
+				FD40665C28E0833100A9EB1A /* TodoModel.swift in Sources */,
 				FD871C7E28DE40FC0071E901 /* Constants.swift in Sources */,
+				FD40663228DFBB9400A9EB1A /* CoreDataStack.swift in Sources */,
 				FD871C8228DE421F0071E901 /* PostListModel.swift in Sources */,
-				FD871C6328DE36C20071E901 /* PostsListViewController.swift in Sources */,
+				FD871C6328DE36C20071E901 /* PostListViewController.swift in Sources */,
 				FD871C8028DE41DA0071E901 /* PostListViewModel.swift in Sources */,
 				FD871C5F28DE36C20071E901 /* AppDelegate.swift in Sources */,
 				FD871C6128DE36C20071E901 /* SceneDelegate.swift in Sources */,
+				FD871C8D28DE57A30071E901 /* PhotosListCollectionViewCell.swift in Sources */,
 				FD871C8428DE42470071E901 /* PostListEntity.swift in Sources */,
+				FD40664F28E056F600A9EB1A /* AddTodoViewController.swift in Sources */,
+				FD40665828E0716100A9EB1A /* AddTodoModel.swift in Sources */,
 				FD871C7928DE3F1D0071E901 /* PostListTableViewCell.swift in Sources */,
+				FD40664528E045F600A9EB1A /* Todo+CoreDataClass.swift in Sources */,
+				FD40665E28E0852F00A9EB1A /* TodoViewModel.swift in Sources */,
+				FD40664628E045F600A9EB1A /* Todo+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,6 +602,7 @@
 		};
 		FD871C7028DE36C50071E901 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE5E1E0D4E168F945BD614BC /* Pods-Homework3.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -374,6 +631,7 @@
 		};
 		FD871C7128DE36C50071E901 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A7656DD669526967FFE1BA5 /* Pods-Homework3.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -422,6 +680,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FD40662D28DFB4FD00A9EB1A /* Todo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FD40662E28DFB4FD00A9EB1A /* Todo.xcdatamodel */,
+			);
+			currentVersion = FD40662E28DFB4FD00A9EB1A /* Todo.xcdatamodel */;
+			path = Todo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = FD871C5328DE36C20071E901 /* Project object */;
 }

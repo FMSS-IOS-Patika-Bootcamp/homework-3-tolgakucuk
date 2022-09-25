@@ -9,5 +9,8 @@ import Foundation
 
 class Constants {
     static let postCellIdentifier = "postCellIdentifier"
-    static let postsURL = "https://jsonplaceholder.typicode.com/posts"
+    static let photosCellIdentifier = "photosCellIdentifier"
+    static let todosCellIdentifier = "todosCellIdentifier"
+    static let baseURL = "https://jsonplaceholder.typicode.com"
+    
 }

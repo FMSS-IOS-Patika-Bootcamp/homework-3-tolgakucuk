@@ -25,7 +25,7 @@ class PostListModel {
      */
     func fetchData() {
         
-        guard let url = URL.init(string: Constants.postsURL) else {
+        guard let url = URL.init(string: Constants.baseURL + "/posts") else {
             delegate?.didDataFetchProcessFinish(false)
             return
         }

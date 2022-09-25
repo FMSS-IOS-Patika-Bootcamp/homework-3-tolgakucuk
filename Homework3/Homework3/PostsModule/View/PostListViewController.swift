@@ -7,7 +7,7 @@
 
 import UIKit
 
-class PostsListViewController: UIViewController {
+class PostListViewController: UIViewController {
 
     //MARK: - Properties
     
@@ -25,7 +25,7 @@ class PostsListViewController: UIViewController {
     }
 }
 
-private extension PostsListViewController {
+private extension PostListViewController {
     func configureUI() {
         tableView.delegate = self
         tableView.dataSource = self
@@ -40,13 +40,13 @@ private extension PostsListViewController {
      
 }
 
-extension PostsListViewController: UITableViewDelegate {
+extension PostListViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         viewModel.didClickItem(at: indexPath.row)
     }
 }
 
-extension PostsListViewController: UITableViewDataSource {
+extension PostListViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return items.count
@@ -60,7 +60,7 @@ extension PostsListViewController: UITableViewDataSource {
     }
 }
 
-extension PostsListViewController: PostListViewModelViewProtocol {
+extension PostListViewController: PostListViewModelViewProtocol {
     
     func didCellItemFetch(_ items: [PostCellViewModel]) {
         self.items = items

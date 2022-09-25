@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="PhotosListCollectionViewCell" customModule="Homework3" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="261" height="241"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="261" height="241"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Qx-vf-jJF">
+                        <rect key="frame" x="0.0" y="0.0" width="261" height="241"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="atomicblonde" translatesAutoresizingMaskIntoConstraints="NO" id="6Q0-X0-i44">
+                                <rect key="frame" x="0.0" y="0.0" width="261" height="241"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Q0-X0-i44" firstAttribute="leading" secondItem="8Qx-vf-jJF" secondAttribute="leading" id="2cU-tP-pqO"/>
+                            <constraint firstItem="6Q0-X0-i44" firstAttribute="top" secondItem="8Qx-vf-jJF" secondAttribute="top" id="Oaj-4J-fx2"/>
+                            <constraint firstAttribute="bottom" secondItem="6Q0-X0-i44" secondAttribute="bottom" id="dbK-EY-XPv"/>
+                            <constraint firstAttribute="trailing" secondItem="6Q0-X0-i44" secondAttribute="trailing" id="v0N-so-aAD"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="8Qx-vf-jJF" secondAttribute="bottom" id="BE6-Yj-2f6"/>
+                <constraint firstAttribute="trailing" secondItem="8Qx-vf-jJF" secondAttribute="trailing" id="WL8-fh-FBw"/>
+                <constraint firstItem="8Qx-vf-jJF" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="sRv-5j-xdx"/>
+                <constraint firstItem="8Qx-vf-jJF" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="w9j-C8-PMV"/>
+            </constraints>
+            <size key="customSize" width="261" height="241"/>
+            <connections>
+                <outlet property="containerView" destination="8Qx-vf-jJF" id="cvx-DS-0tf"/>
+                <outlet property="imageView" destination="6Q0-X0-i44" id="VVU-rh-9L8"/>
+            </connections>
+            <point key="canvasLocation" x="-40" y="-47"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="atomicblonde" width="468" height="741"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
