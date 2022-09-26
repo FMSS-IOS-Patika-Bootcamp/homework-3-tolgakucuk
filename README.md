@@ -22,4 +22,5 @@ The application consists of three different parts;
 
 ## Screenshots
 <img width="225" alt="posttab" src="https://user-images.githubusercontent.com/68082820/192356073-9a245f53-32ce-4991-9aaf-cd074f9730d1.png"> 
+<img width="225" alt="photostab" src="https://user-images.githubusercontent.com/68082820/192356686-2f1653aa-bb1e-4334-b5c8-ad278ce473fe.png">
 <img width="225" alt="addtodo" src="https://user-images.githubusercontent.com/68082820/192355549-2c0cd412-c75e-4280-9e1f-627b1aba9b17.png">
